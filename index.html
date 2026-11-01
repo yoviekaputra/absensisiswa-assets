@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Absensi Siswa — Aset push notification</title>
+<style>
+  :root{--ink:#061b31;--body:#475569;--line:#e5edf5;--blue:#2563eb}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);
+       background:#f6f9fc;padding:40px 20px;line-height:1.5}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{font-size:26px;font-weight:600;letter-spacing:-.4px}
+  p.lead{color:var(--body);margin-top:8px;font-size:15px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;margin-top:22px;
+        box-shadow:0 18px 30px -24px rgba(50,50,93,.35)}
+  h2{font-size:16px;font-weight:600}
+  .meta{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:#64748d;margin-top:4px}
+  img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin-top:14px;background:#fff}
+  .row{display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap}
+  a.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;border-radius:5px;
+        padding:9px 14px;font-size:13px;font-weight:500}
+  a.ghost{background:#fff;color:var(--blue);border:1px solid #bfdbfe}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#f1f5f9;
+       padding:3px 6px;border-radius:4px;word-break:break-all}
+  footer{color:#94a3b8;font-size:12px;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Absensi Siswa — aset push notification</h1>
+  <p class="lead">Gambar notifikasi FCM, rasio 2:1 (1024×512) + versi @2x. Klik gambar untuk buka ukuran penuh, atau pakai tombol unduh.</p>
+
+  <div class="card">
+    <h2>absensi-1024x512.png</h2>
+    <div class="meta">1024×512 px · PNG · 137 KB · rasio 2:1 · aman untuk FCM (&lt;1 MB) dan composer (&lt;300 KB)</div>
+    <a href="push/absensi-1024x512.png"><img src="push/absensi-1024x512.png" alt="Push notification 1024x512"></a>
+    <div class="row">
+      <a class="btn" href="push/absensi-1024x512.png" download>Unduh PNG</a>
+      <a class="btn ghost" href="push/absensi-1024x512.jpg" download>Unduh JPG (41 KB)</a>
+    </div>
+    <div class="row"><code>https://yoviekaputra.github.io/absensisiswa-assets/push/absensi-1024x512.png</code></div>
+  </div>
+
+  <div class="card">
+    <h2>absensi-2048x1024.jpg (@2x)</h2>
+    <div class="meta">2048×1024 px · JPEG · 92 KB · untuk layar high-DPI</div>
+    <a href="push/absensi-2048x1024.jpg"><img src="push/absensi-2048x1024.jpg" alt="Push notification 2048x1024"></a>
+    <div class="row"><a class="btn" href="push/absensi-2048x1024.jpg" download>Unduh JPG @2x</a></div>
+    <div class="row"><code>https://yoviekaputra.github.io/absensisiswa-assets/push/absensi-2048x1024.jpg</code></div>
+  </div>
+
+  <footer>Hosted via GitHub Pages · dipakai untuk <code>android.notification.image</code> dan <code>apns.fcm_options.image</code>.</footer>
+</div>
+</body>
+</html>
